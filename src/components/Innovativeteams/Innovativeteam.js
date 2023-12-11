@@ -82,7 +82,7 @@ function Innovativeteam() {
 
       <div className="grid grid-cols-1 mt-16 ">
           {InnovativeTeamList.map((item) => (
-            <div className="flex  h-80 w-9/12 innovative-team-gradient  mx-auto rounded-2xl overflow-hidden shadow-md mb-16">
+            <div key={item.id} className="flex  h-80 w-9/12 innovative-team-gradient  mx-auto rounded-2xl overflow-hidden shadow-md mb-16">
               <div className="mt-6 ml-8">
                 <Image src={item.img} alt="image" width={175} height={175} />
                 </div>

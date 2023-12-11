@@ -48,10 +48,10 @@ const ZerotierList = [
         </div>
       </>
     ),
-    button: (
+    buttons: (
       <>
         <div>
-          <button className="bg-indigo-700 ml-8 px-4 py-2 hover:text-black text-yellow-500 hover:bg-yellow-500 p-5 rounded-full border hover:border-yellow-500 ">Contact SP Sales</button>
+          <h1 className="bg-indigo-700 ml-8 px-4 py-2 hover:text-black text-yellow-500 hover:bg-yellow-500 p-5 rounded-full border hover:border-yellow-500 ">Contact SP Sales</h1>
         </div>
       </>
     ),
@@ -64,13 +64,13 @@ function Zerotier() {
       <div className="bg-black">
         <div className="grid grid-cols-1  ">
           {ZerotierList.map((item) => (
-            <div className="flex  h-96 w-8/12 innovative-team-gradient   mx-auto rounded-2xl overflow-hidden shadow-md mb-16">
+            <div key={item.id} className="flex  h-96 w-8/12 innovative-team-gradient   mx-auto rounded-2xl overflow-hidden shadow-md mb-16">
               <div className="p-6 text-white bg-indigo-700 ">
                 <h2 className="text-5xl text-white font-bold  mx-6 mt-8 ">
                   {item.title}
                 </h2>
                 <h3 className="text-white text-xl ml-9 mx-2 my-4 py-4 ">{item.desc}</h3>
-                <button className="">{item.button}</button>
+                <button className="">{item.buttons}</button>
               </div>
 
               <div className="mt-6 ml-8  " >

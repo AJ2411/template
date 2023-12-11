@@ -42,7 +42,7 @@ const pricingList = [
    
     points: (
       <>
-        <div classname="text-center">
+        <div className="text-center">
           <p>
             ✓ Admins | $10 USD/mo each <br/>
             ✓ 25 Node Packs | $5 USD/mo<br/>
@@ -104,10 +104,10 @@ function Pricing() {
         <h1 className="text-5xl text-center">Pricing</h1>
         <h5 className="text-center text-xl my-2">ZeroTier makes networking easy for everyone - anywhere.</h5>
        
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-6  bg-black mt-10 ">
+      <div  className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-6  bg-black mt-10 ">
         {
           pricingList.map((item)=>(
-      <div className=" bg-gray-900  mx-auto rounded-xl overflow-hidden shadow-md mb-20">
+      <div key={item.id} className=" bg-gray-900  mx-auto rounded-xl overflow-hidden shadow-md mb-20">
         <div className="ml-48 mt-12">
         <Image src={item.img} alt="image" width={70} height={70}  />
         </div>

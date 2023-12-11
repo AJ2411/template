@@ -211,7 +211,7 @@ function Footers() {
   <div className="bg-black ">
     <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 w-11/12 bg-black mx-auto">
       {foooterList.map((item, index) => (
-        <div key={index} className="ml-8 mt-8 bg-black">
+        <div key={item.id} className="ml-8 mt-8 bg-black">
           <div className="text-white ">
             <h1 className="text-xl font-bold text-center -mt-20">{item.title}</h1>
             <h1 className="text-lg py-2 text-center ">{item.subtitle}</h1>

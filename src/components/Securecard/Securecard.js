@@ -92,7 +92,7 @@ function Securecard() {
    <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 bg-black ">
     {
       securedNetworkList.map((item)=>(
-        <div className="bg-black max-w-md mx-auto rounded-xl overflow-hidden shadow-md">
+        <div key={item.id} className="bg-black max-w-md mx-auto rounded-xl overflow-hidden shadow-md">
         <div className="ml-28">
         <Image src={item.img} alt="image" width={180} height={180}  />
         </div>

@@ -45,7 +45,7 @@ function Newsletter() {
 <div className='bg-black'>
     <div className='grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1'>
           {newsList.map((item) => (
-            <div className=" h-60 w-8/12  mx-auto   mb-16">;
+            <div key={item.id} className=" h-60 w-8/12  mx-auto   mb-16">;
               <div className="p-6 text-white bg-gray-900 rounded-2xl overflow-hidden shadow-md">
                 <h2 className="text-2xl text-white  mb-2 mx-6 ml-1 ">
                   {item.title}

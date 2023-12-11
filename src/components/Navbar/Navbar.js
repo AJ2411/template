@@ -41,9 +41,9 @@ function Navbar() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
@@ -95,9 +95,9 @@ function Navbar() {
                     >
                       <path
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="m1 1 4 4 4-4"
                       />
                     </svg>
@@ -171,9 +171,9 @@ function Navbar() {
                     >
                       <path
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="m1 1 4 4 4-4"
                       />
                     </svg>
@@ -238,7 +238,7 @@ function Navbar() {
                 <li>
                   <button
                     type="button"
-                    class="text-black bg-yellow-500 hover:text-yellow-500 focus:outline-none focus:ring-4   hover:bg-black font-medium rounded-full text-lg px-7 py-2 text-center me-2 mb-2 hover:focus:ring-yellow-500 border  hover:border-yellow-500"
+                    className="text-black bg-yellow-500 hover:text-yellow-500 focus:outline-none focus:ring-4   hover:bg-black font-medium rounded-full text-lg px-7 py-2 text-center me-2 mb-2 hover:focus:ring-yellow-500 border  hover:border-yellow-500"
                   >
                     Sign Up
                   </button>
