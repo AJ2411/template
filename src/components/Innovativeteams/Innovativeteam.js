@@ -13,10 +13,10 @@ const InnovativeTeamList = [
       <>
         <div className="mx-4 my-4">
           <p>
-            "Metropolis deploys computer vision in parking lots & car wash
+          &quot;Metropolis deploys computer vision in parking lots & car wash;
             facilities across the US, integrating ZeroTier to eliminate the
             complexity of managing multiple, disparate networks to deliver a
-            seamless, groundbreaking and world-class customer experience."
+            seamless, groundbreaking and world-class customer experience.&quot;
           </p>
         </div>
       </>
@@ -30,9 +30,9 @@ const InnovativeTeamList = [
       <>
         <div>
           <p>
-            "In early product development, we needed a way to easily connect our
+          &quot;In early product development, we needed a way to easily connect our
             growing IoT product-base to our systems. ZeroTier provided an easy,
-            and reliable way to achieve that, and has been growing with us."{" "}
+            and reliable way to achieve that, and has been growing with us.&quot;{" "}
           </p>
         </div>
       </>
@@ -46,10 +46,10 @@ const InnovativeTeamList = [
       <>
         <div>
         <p>
-            "Loft Orbital uses ZeroTier to improve interoperability between its
+        &quot;Loft Orbital uses ZeroTier to improve interoperability between its
             offices in the United States and France. It connects our engineers
             to key resources quickly and easily, which allows our team to focus
-            on making space simple."{" "}
+            on making space simple.&quot;{" "}
           </p>
         </div>
       </>
@@ -63,10 +63,10 @@ const InnovativeTeamList = [
       <>
         <div>
           <p>
-            "Loft Orbital uses ZeroTier to improve interoperability between its
+          &quot;Loft Orbital uses ZeroTier to improve interoperability between its
             offices in the United States and France. It connects our engineers
             to key resources quickly and easily, which allows our team to focus
-            on making space simple."{" "}
+            on making space simple.&quot;{" "}
           </p>
         </div>
       </>
@@ -78,7 +78,7 @@ function Innovativeteam() {
   return (
     <>
     <div className="bg-black">
-    <h1 className="text-center bg-black text-white text-5xl font-bold">Used by the world's most innovative teams</h1>
+    <h1 className="text-center bg-black text-white text-5xl font-bold">Used by the world&apos;s most innovative teams</h1>
 
       <div className="grid grid-cols-1 mt-16 ">
           {InnovativeTeamList.map((item) => (

@@ -15,7 +15,7 @@ const foooterList = [
     subtitle: (
       <>
         <div className="flex">
-          <p>Securely Connecting The World's Devices.</p>
+          <p>Securely Connecting The World&apos;s Devices.</p>
         </div>
       </>
     ),
