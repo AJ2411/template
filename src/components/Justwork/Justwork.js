@@ -10,7 +10,7 @@ function Justwork() {
     <div className='bg-black'>
     <div className='grid lg:grid-cols-2  md:grid-cols-2  sm:grid-cols-2   bg-gray-900 h-full w-10/12 px-10 ml-28 rounded-2xl overflow-hidden shadow-md '>
        <div key={item.id} className='ml-4 mt-2 '>
-       <Image src={vpn} alt="image" width={400} height={225} />
+       <Image src={item.vpn} alt="image" width={400} height={225} />
        </div>
 
        <div className='mt-20'>
